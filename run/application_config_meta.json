@@ -1,0 +1,295 @@
+{
+  "keys": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/config/config.default.js",
+  "middleware": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/config/config.default.js",
+  "sequelize": {
+    "dialect": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/config/config.default.js",
+    "host": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/config/config.default.js",
+    "port": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/config/config.default.js",
+    "username": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/config/config.default.js",
+    "password": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/config/config.default.js",
+    "database": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/config/config.default.js",
+    "timezone": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/config/config.default.js"
+  },
+  "security": {
+    "csrf": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/config/config.default.js",
+    "domainWhiteList": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "value": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.local.js",
+      "maxAge": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "value": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "value": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "policy": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "checkAddress": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    }
+  },
+  "jwt": {
+    "secret": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/config/config.default.js",
+    "enable": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-jwt@3.1.6@egg-jwt/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "key": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "dirs": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "queryField": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js",
+      "development": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-schedule@3.6.1@egg-schedule/config/config.default.js",
+      "file": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-schedule@3.6.1@egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-schedule@3.6.1@egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "autoFields": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fields": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "files": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-development@2.4.2@egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-development@2.4.2@egg-development/config/config.default.js",
+    "fastReady": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-development@2.4.2@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-development@2.4.2@egg-development/config/config.default.js",
+    "overrideDefault": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-development@2.4.2@egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dir": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dynamic": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "preload": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "buffer": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "maxFiles": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "cache": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-view@2.1.2@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "mapping": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js"
+  },
+  "validate": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-validate@2.0.2@egg-validate/config/config.default.js",
+  "env": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "name": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "proxy": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "protocolHeaders": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "ipHeaders": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "hostHeaders": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "version": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "description": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "private": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "egg-jwt": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "egg-scripts": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "egg-sequelize": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "egg-validate": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "mysql2": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "autod-egg": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "egg-bin": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "egg-ci": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "egg-mock": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "eslint": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "eslint-config-egg": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "stop": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "dev": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "debug": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "test": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "test-local": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "cov": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "lint": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "ci": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "autod": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "url": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    },
+    "author": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "license": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+  },
+  "baseDir": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "HOME": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "rundir": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "notFound": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "sitefile": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "middlewares": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "httpClient": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "encoding": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "formLimit": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "jsonLimit": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "strict": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "depth": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "parameterLimit": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "encoding": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "env": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "level": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "consoleLevel": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "outputJSON": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "buffer": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "appLogName": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "coreLogName": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "agentLogName": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "errorLogName": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "maxSockets": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "maxSockets": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "logging": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "serverTimeout": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "port": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "hostname": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "responseTimeout": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+  },
+  "onClientError": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/config.default.js"
+}
