@@ -11,6 +11,7 @@ module.exports = options => {
     ctx.params = {
       ...ctx.query,
       ...ctx.request.body,
+      ip:ctx.request.ip,
     };
     await next();
   };

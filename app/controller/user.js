@@ -1,11 +1,3 @@
-/*
- * @Descripttion:
- * @version:
- * @Author: chenyuxiang
- * @LastEditors: chenyuxiang
- * @Date: 2019-03-28 15:43:59
- * @LastEditTime: 2019-03-31 16:45:02
- */
 'use strict';
 
 const Controller = require('egg').Controller;
@@ -13,22 +5,80 @@ const Controller = require('egg').Controller;
 
 class UserController extends Controller {
 
-  async find() {
+  async register() {
     const { ctx } = this;
-    const id = ctx.params.id;
-    const user = await ctx.service.user.find(id);
-    ctx.body = user;
-    ctx.helper.success({ ctx, code: 200, res: user });
+
+    const body = {
+      
+      ...ctx.params,
+      
+    };
+
+    const result = await ctx.service.user.register(body);
+    //ctx.body = result;
+
+    if (result.functionResult){
+
+      ctx.helper.success({ ctx, code: 200, res: 'success' });
+
+    }
+
+    else {
+
+      ctx.helper.success({ ctx, code: 200, res: '用户已存在' });
+
+    }
+
   }
 
+  async login() {
 
-  async add() {
     const { ctx } = this;
-    const body = ctx.params;
 
-    const result = await ctx.service.user.add(body);
-    ctx.body = result;
-    ctx.helper.success({ ctx, code: 200, res: 'success' });
+    const body = {  
+      
+    ...ctx.params,
+    
+    };
+
+    const result = await ctx.service.user.login(body);
+
+    if (result.functionResult == 0){
+
+      ctx.helper.success({ ctx, code: 200, 
+
+        res: {'Bearer' : result.res} 
+
+      });
+
+    }
+
+    else if(result.functionResult == 1) {
+
+      ctx.helper.success({ ctx, code: 200, res: '登录错误' });
+
+    }
+
+    else{
+
+      ctx.helper.success({ ctx, code: 200, res: '缓存错误' });
+
+    }
+    
+
+  }
+
+  async forgetPassword(){
+
+    const { ctx } = this;
+
+    const body = {  
+      
+    ...ctx.params,
+    
+    };
+
+    const result = await ctx.service.user.forgetPassword(body);
 
 
   }

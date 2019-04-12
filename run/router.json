@@ -2,12 +2,11 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
-    "path": "/v1/users",
-    "regexp": "/^\\/v1\\/users(?:\\/(?=$))?$/",
+    "path": "/v1/user/login",
+    "regexp": "/^\\/v1\\/user\\/login(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -18,8 +17,20 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/v1/users",
-    "regexp": "/^\\/v1\\/users(?:\\/(?=$))?$/",
+    "path": "/v1/user/register",
+    "regexp": "/^\\/v1\\/user\\/register(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/v1/user/forgetPassword",
+    "regexp": "/^\\/v1\\/user\\/forgetPassword(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

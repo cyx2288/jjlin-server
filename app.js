@@ -7,7 +7,9 @@ module.exports = app => {
   app.beforeStart(async () => {
     // 应用会等待这个函数执行完成才启动
     if (app.config.env === 'local') {
-      await app.model.sync({ force: true });
+      await app.model.sync(
+        //{ force: true }
+        );
     }
     console.log('==app beforeStart==');
   });
@@ -20,3 +22,4 @@ module.exports = app => {
     console.log('==app beforeClose==');
   });
 };
+

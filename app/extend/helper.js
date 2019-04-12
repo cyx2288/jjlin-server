@@ -44,5 +44,49 @@ module.exports = {
     };
   },
 
+//获取token
+  getAccessToken : ctx => {
+    let bearerToken = ctx.request.header.authorization;
+    console.log(bearerToken);
+    return bearerToken && bearerToken.replace("Bearer ", "");
+  },
+
+  verifyTokenFunction : token => {
+    return new Promise((resolve, reject) => {
+      app.jwt.verify(token, app.config.jwt.secret, function(err, decoded) {
+        let result = {};
+        if (err) {
+          /*
+            err = {
+              name: 'TokenExpiredError',
+              message: 'jwt expired',
+              expiredAt: 1408621000
+            }
+          */
+          result.verify = false;
+          result.message = err.message;
+        } else {
+          result.verify = true;
+          result.message = decoded;
+        }
+        resolve(result);
+      });
+    });
+  },
+
+  verifyToken : async (ctx, userId) => { 
+    let token = this.getAccessToken(ctx);
+    let verifyResult = await ctx.helper.verifyTokenFunction(token);
+    if (!verifyResult.verify) {
+      ctx.helper.fail(ctx, 401, verifyResult.message);
+      return false;
+    }
+    if (userId != verifyResult.message.id) {
+      ctx.helper.fail(ctx, 401, "用户 ID 与 Token 不一致");
+      return false;
+    }
+    return true;
+  }
+
 };
 

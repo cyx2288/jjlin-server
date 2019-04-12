@@ -15,6 +15,10 @@ module.exports = app => {
       type: STRING,
       allowNull: false,
     },
+    ip:{
+      type: STRING,
+      allowNull: false,
+    }
 
   });
   return ZzUsers;

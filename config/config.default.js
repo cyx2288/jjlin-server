@@ -4,6 +4,8 @@
 
 const sequelizeConfig = require('./config.sequelize');
 
+const redisConfig = require('./config.redis');
+
 /**
  * @param {Egg.EggAppInfo} appInfo app info
  */
@@ -31,6 +33,8 @@ module.exports = appInfo => {
 
 
   config.sequelize = sequelizeConfig;
+
+  config.redis=redisConfig;
 
   config.security = {
     csrf: false,

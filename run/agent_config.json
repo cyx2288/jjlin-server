@@ -64,7 +64,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "D:\\lj-server\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -76,8 +76,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/default",
-        "development": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/development"
+        "default": "D:\\lj-server\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\lib\\event-sources\\default",
+        "development": "D:\\lj-server\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -100,7 +100,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "/var/folders/sc/0b73f_ps4ns2_xl02g26dyt40000gn/T/egg-multipart-tmp/egg-example",
+      "tmpdir": "C:\\Users\\Yuxiang\\AppData\\Local\\Temp\\egg-multipart-tmp\\egg-example",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -123,14 +123,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/app/public",
+      "dir": "D:\\lj-server\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/app/view",
+      "root": "D:\\lj-server\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -138,17 +138,69 @@
     },
     "sequelize": {
       "dialect": "mysql",
-      "database": "egg-sequelize-doc-default",
-      "host": "127.0.0.1",
-      "port": "3306",
+      "database": "",
+      "host": "localhost",
+      "port": 3306,
       "username": "root",
-      "password": "<String len: 14>",
-      "timezone": "+08:00"
+      "password": "<String len: 0>",
+      "datasources": [
+        {
+          "dialect": "mysql",
+          "delegate": "model",
+          "baseDir": "model",
+          "replication": {
+            "read": [
+              {
+                "host": "127.0.0.1",
+                "username": "root",
+                "password": "chenyuxiang123",
+                "port": "3306",
+                "database": "egg-sequelize-doc-default"
+              },
+              {
+                "host": "127.0.0.1",
+                "username": "root",
+                "password": "chenyuxiang123",
+                "port": "3306",
+                "database": "egg-sequelize-doc-default"
+              }
+            ],
+            "write": {
+              "host": "127.0.0.1",
+              "username": "root",
+              "password": "chenyuxiang123",
+              "port": "3306",
+              "database": "egg-sequelize-doc-default"
+            }
+          },
+          "timezone": "+08:00"
+        }
+      ]
     },
     "validate": {},
     "jwt": {
       "secret": "<String len: 17>",
       "enable": false
+    },
+    "redis": {
+      "default": {},
+      "app": true,
+      "agent": false,
+      "supportTimeCommand": true,
+      "clients": {
+        "foo": {
+          "port": 6379,
+          "host": "127.0.0.1",
+          "password": "<String len: 14>",
+          "db": 0
+        },
+        "bar": {
+          "port": 6379,
+          "host": "127.0.0.1",
+          "password": "<String len: 14>",
+          "db": 1
+        }
+      }
     },
     "env": "local",
     "name": "egg-example",
@@ -168,9 +220,11 @@
       "dependencies": {
         "egg": "^2.15.1",
         "egg-jwt": "^3.1.6",
+        "egg-redis": "^2.3.0",
         "egg-scripts": "^2.11.0",
         "egg-sequelize": "^4.3.1",
         "egg-validate": "^2.0.2",
+        "eslint": "^5.16.0",
         "mysql2": "^1.6.5"
       },
       "devDependencies": {
@@ -208,9 +262,9 @@
       "author": "chen",
       "license": "MIT"
     },
-    "baseDir": "/Users/chenyuxiang/Documents/jjlin_server/egg-example",
-    "HOME": "/Users/chenyuxiang",
-    "rundir": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/run",
+    "baseDir": "D:\\lj-server",
+    "HOME": "C:\\Users\\Yuxiang",
+    "rundir": "D:\\lj-server\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -240,7 +294,7 @@
       }
     },
     "logger": {
-      "dir": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/logs/egg-example",
+      "dir": "D:\\lj-server\\logs\\egg-example",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -319,8 +373,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/plugin.js",
-      "path": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-session@3.1.0@egg-session",
+      "from": "D:\\lj-server\\node_modules\\_egg@2.20.2@egg\\config\\plugin.js",
+      "path": "D:\\lj-server\\node_modules\\_egg-session@3.1.0@egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -332,8 +386,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/plugin.js",
-      "path": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-security@2.5.0@egg-security",
+      "from": "D:\\lj-server\\node_modules\\_egg@2.20.2@egg\\config\\plugin.js",
+      "path": "D:\\lj-server\\node_modules\\_egg-security@2.5.0@egg-security",
       "version": "2.5.0"
     },
     "jsonp": {
@@ -345,8 +399,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/plugin.js",
-      "path": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
+      "from": "D:\\lj-server\\node_modules\\_egg@2.20.2@egg\\config\\plugin.js",
+      "path": "D:\\lj-server\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -358,8 +412,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/plugin.js",
-      "path": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-onerror@2.1.0@egg-onerror",
+      "from": "D:\\lj-server\\node_modules\\_egg@2.20.2@egg\\config\\plugin.js",
+      "path": "D:\\lj-server\\node_modules\\_egg-onerror@2.1.0@egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -369,8 +423,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/plugin.js",
-      "path": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-i18n@2.0.0@egg-i18n",
+      "from": "D:\\lj-server\\node_modules\\_egg@2.20.2@egg\\config\\plugin.js",
+      "path": "D:\\lj-server\\node_modules\\_egg-i18n@2.0.0@egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -380,8 +434,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/plugin.js",
-      "path": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-watcher@3.1.0@egg-watcher",
+      "from": "D:\\lj-server\\node_modules\\_egg@2.20.2@egg\\config\\plugin.js",
+      "path": "D:\\lj-server\\node_modules\\_egg-watcher@3.1.0@egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -391,8 +445,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/plugin.js",
-      "path": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-schedule@3.6.1@egg-schedule",
+      "from": "D:\\lj-server\\node_modules\\_egg@2.20.2@egg\\config\\plugin.js",
+      "path": "D:\\lj-server\\node_modules\\_egg-schedule@3.6.1@egg-schedule",
       "version": "3.6.1"
     },
     "multipart": {
@@ -404,8 +458,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/plugin.js",
-      "path": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-multipart@2.4.0@egg-multipart",
+      "from": "D:\\lj-server\\node_modules\\_egg@2.20.2@egg\\config\\plugin.js",
+      "path": "D:\\lj-server\\node_modules\\_egg-multipart@2.4.0@egg-multipart",
       "version": "2.4.0"
     },
     "development": {
@@ -419,8 +473,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/plugin.js",
-      "path": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-development@2.4.2@egg-development",
+      "from": "D:\\lj-server\\node_modules\\_egg@2.20.2@egg\\config\\plugin.js",
+      "path": "D:\\lj-server\\node_modules\\_egg-development@2.4.2@egg-development",
       "version": "2.4.2"
     },
     "logrotator": {
@@ -432,8 +486,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/plugin.js",
-      "path": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-logrotator@3.0.7@egg-logrotator",
+      "from": "D:\\lj-server\\node_modules\\_egg@2.20.2@egg\\config\\plugin.js",
+      "path": "D:\\lj-server\\node_modules\\_egg-logrotator@3.0.7@egg-logrotator",
       "version": "3.0.7"
     },
     "static": {
@@ -443,8 +497,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/plugin.js",
-      "path": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-static@2.2.0@egg-static",
+      "from": "D:\\lj-server\\node_modules\\_egg@2.20.2@egg\\config\\plugin.js",
+      "path": "D:\\lj-server\\node_modules\\_egg-static@2.2.0@egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -454,8 +508,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg@2.20.2@egg/config/plugin.js",
-      "path": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-view@2.1.2@egg-view",
+      "from": "D:\\lj-server\\node_modules\\_egg@2.20.2@egg\\config\\plugin.js",
+      "path": "D:\\lj-server\\node_modules\\_egg-view@2.1.2@egg-view",
       "version": "2.1.2"
     },
     "sequelize": {
@@ -465,8 +519,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/config/plugin.js",
-      "path": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-sequelize@4.3.1@egg-sequelize",
+      "from": "D:\\lj-server\\config\\plugin.js",
+      "path": "D:\\lj-server\\node_modules\\_egg-sequelize@4.3.1@egg-sequelize",
       "version": "4.3.1"
     },
     "validate": {
@@ -476,8 +530,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/config/plugin.js",
-      "path": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-validate@2.0.2@egg-validate",
+      "from": "D:\\lj-server\\config\\plugin.js",
+      "path": "D:\\lj-server\\node_modules\\_egg-validate@2.0.2@egg-validate",
       "version": "2.0.2"
     },
     "jwt": {
@@ -489,9 +543,20 @@
         "onerror"
       ],
       "env": [],
-      "from": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/config/plugin.js",
-      "path": "/Users/chenyuxiang/Documents/jjlin_server/egg-example/node_modules/_egg-jwt@3.1.6@egg-jwt",
+      "from": "D:\\lj-server\\config\\plugin.js",
+      "path": "D:\\lj-server\\node_modules\\_egg-jwt@3.1.6@egg-jwt",
       "version": "3.1.6"
+    },
+    "redis": {
+      "enable": true,
+      "package": "egg-redis",
+      "name": "redis",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "D:\\lj-server\\config\\plugin.js",
+      "path": "D:\\lj-server\\node_modules\\_egg-redis@2.3.0@egg-redis",
+      "version": "2.3.0"
     }
   }
 }
